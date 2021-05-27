@@ -17,10 +17,10 @@ class Profit:
                 
 if __name__ == "__main__":
     print("************************")
-    print("Statup Profit Calculator")
+    print("Startup Profit Calculator")
     print("************************\n\n")
     rnd = float(input('Enter Rnd Cost: '))
-    admin = float(input('Enter Administation Cost: '))
+    admin = float(input('Enter Administration Cost: '))
     market = float(input('Enter Marketing Spend: '))
     city = input('Enter State [New York,California,Florida]: ')
     data = pd.DataFrame([rnd,admin,market,city],index=['R&D Spend', 'Administration', 'Marketing Spend', 'State']).T
