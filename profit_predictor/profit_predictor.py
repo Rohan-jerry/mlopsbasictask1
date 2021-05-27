@@ -19,7 +19,7 @@ if __name__ == "__main__":
     print("************************")
     print("Startup Profit Calculator")
     print("************************\n\n")
-    rnd = float(input('Enter Rnd Cost: '))
+    rnd = float(input('Enter R&D Cost: '))
     admin = float(input('Enter Administration Cost: '))
     market = float(input('Enter Marketing Spend: '))
     city = input('Enter State [New York,California,Florida]: ')
